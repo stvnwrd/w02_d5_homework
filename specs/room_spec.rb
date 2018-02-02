@@ -9,7 +9,7 @@ require relative('../song')
 class RoomTest < MiniTest::Test
 
   def setup
-    @room = Room.new()
+    @room = Room.new('Room 1', 5)
   end
 
 end

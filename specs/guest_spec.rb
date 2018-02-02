@@ -9,7 +9,7 @@ require relative('../song')
 class GuestTest < MiniTest::Test
 
   def setup
-    @guest = Guest.new()
+    @guest = Guest.new('Ed', 31, 100, 'Blink 182 - Anthem Part 2')
   end
 
 end
