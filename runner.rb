@@ -8,6 +8,7 @@
 # --- asks the user to set a capacity for each room
 # --- asks the user to add up to 3 songs to each room or to 'randomise' song selection for quick setup
 # - asks the user to state how much cash is currently in the till
+# - asks the user to state how many drinks are currently in the stock
 # - confirms to them the current configuration of the bar
 #
 # the runner then moves the user into live mode where they are given the options of:
@@ -18,5 +19,6 @@
 # 5 - take a drinks order
 # 6 - to view room capacities
 # 7 - to view the till
+# 8 - to view the stock
 # ---
-# 8 - to reconfigure bar (*** leave this as an extension unless I have time ***)
+# 9 - to reconfigure bar (*** leave this as an extension unless I have time ***)

@@ -1,10 +1,9 @@
 class Song
 
-  attr_accessor :name, :lyrics
+  attr_accessor :name
 
-  def initialize(name, lyrics)
+  def initialize(name)
     @name = name
-    @lyrics = lyrics
   end
 
 end
